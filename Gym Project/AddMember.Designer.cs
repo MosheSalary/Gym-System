@@ -31,17 +31,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.NameTb = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.PhoneTb = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.AgeTb = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.GenderCb = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.AmountTb = new System.Windows.Forms.TextBox();
+            this.ScheduleCb = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -81,14 +81,14 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "X";
             // 
-            // textBox1
+            // NameTb
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.SkyBlue;
-            this.textBox1.Location = new System.Drawing.Point(17, 140);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 31);
-            this.textBox1.TabIndex = 6;
+            this.NameTb.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameTb.ForeColor = System.Drawing.Color.SkyBlue;
+            this.NameTb.Location = new System.Drawing.Point(17, 140);
+            this.NameTb.Name = "NameTb";
+            this.NameTb.Size = new System.Drawing.Size(184, 31);
+            this.NameTb.TabIndex = 6;
             // 
             // label4
             // 
@@ -112,14 +112,14 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Phone Number";
             // 
-            // textBox2
+            // PhoneTb
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.SkyBlue;
-            this.textBox2.Location = new System.Drawing.Point(476, 140);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(184, 31);
-            this.textBox2.TabIndex = 8;
+            this.PhoneTb.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PhoneTb.ForeColor = System.Drawing.Color.SkyBlue;
+            this.PhoneTb.Location = new System.Drawing.Point(476, 140);
+            this.PhoneTb.Name = "PhoneTb";
+            this.PhoneTb.Size = new System.Drawing.Size(184, 31);
+            this.PhoneTb.TabIndex = 8;
             // 
             // label6
             // 
@@ -132,14 +132,14 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Age";
             // 
-            // textBox3
+            // AgeTb
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.SkyBlue;
-            this.textBox3.Location = new System.Drawing.Point(818, 140);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(184, 31);
-            this.textBox3.TabIndex = 10;
+            this.AgeTb.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgeTb.ForeColor = System.Drawing.Color.SkyBlue;
+            this.AgeTb.Location = new System.Drawing.Point(818, 140);
+            this.AgeTb.Name = "AgeTb";
+            this.AgeTb.Size = new System.Drawing.Size(184, 31);
+            this.AgeTb.TabIndex = 10;
             // 
             // label7
             // 
@@ -152,17 +152,17 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "Gender";
             // 
-            // comboBox1
+            // GenderCb
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.GenderCb.Font = new System.Drawing.Font("Century Gothic", 14.25F);
+            this.GenderCb.FormattingEnabled = true;
+            this.GenderCb.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.comboBox1.Location = new System.Drawing.Point(17, 295);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(184, 30);
-            this.comboBox1.TabIndex = 13;
+            this.GenderCb.Location = new System.Drawing.Point(17, 295);
+            this.GenderCb.Name = "GenderCb";
+            this.GenderCb.Size = new System.Drawing.Size(184, 30);
+            this.GenderCb.TabIndex = 13;
             // 
             // label8
             // 
@@ -175,28 +175,28 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "Monthly Amount";
             // 
-            // textBox4
+            // AmountTb
             // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.SkyBlue;
-            this.textBox4.Location = new System.Drawing.Point(476, 295);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(184, 31);
-            this.textBox4.TabIndex = 14;
+            this.AmountTb.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmountTb.ForeColor = System.Drawing.Color.SkyBlue;
+            this.AmountTb.Location = new System.Drawing.Point(476, 295);
+            this.AmountTb.Name = "AmountTb";
+            this.AmountTb.Size = new System.Drawing.Size(184, 31);
+            this.AmountTb.TabIndex = 14;
             // 
-            // comboBox2
+            // ScheduleCb
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 14.25F);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.ScheduleCb.Font = new System.Drawing.Font("Century Gothic", 14.25F);
+            this.ScheduleCb.FormattingEnabled = true;
+            this.ScheduleCb.Items.AddRange(new object[] {
             "6AM-8AM",
             "8AM-10AM",
             "6PM-8PM",
             "8PM-10PM"});
-            this.comboBox2.Location = new System.Drawing.Point(818, 295);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(184, 30);
-            this.comboBox2.TabIndex = 17;
+            this.ScheduleCb.Location = new System.Drawing.Point(818, 295);
+            this.ScheduleCb.Name = "ScheduleCb";
+            this.ScheduleCb.Size = new System.Drawing.Size(184, 30);
+            this.ScheduleCb.TabIndex = 17;
             // 
             // label9
             // 
@@ -222,6 +222,7 @@
             this.button1.TabIndex = 18;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -260,18 +261,18 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.ScheduleCb);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.AmountTb);
+            this.Controls.Add(this.GenderCb);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.AgeTb);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.PhoneTb);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.NameTb);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -279,6 +280,7 @@
             this.Name = "AddMember";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AddMember";
+            this.Load += new System.EventHandler(this.AddMember_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,17 +291,17 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox NameTb;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox PhoneTb;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox AgeTb;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox GenderCb;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox AmountTb;
+        private System.Windows.Forms.ComboBox ScheduleCb;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
