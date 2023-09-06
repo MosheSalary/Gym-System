@@ -65,6 +65,7 @@
             this.button4.TabIndex = 40;
             this.button4.Text = "Back";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -77,8 +78,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(95, 43);
             this.button3.TabIndex = 39;
-            this.button3.Text = "Back";
+            this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -161,7 +163,7 @@
             this.GenderCb.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.GenderCb.Location = new System.Drawing.Point(44, 242);
+            this.GenderCb.Location = new System.Drawing.Point(44, 319);
             this.GenderCb.Name = "GenderCb";
             this.GenderCb.Size = new System.Drawing.Size(184, 30);
             this.GenderCb.TabIndex = 32;
@@ -171,7 +173,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label7.Location = new System.Drawing.Point(39, 210);
+            this.label7.Location = new System.Drawing.Point(39, 287);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 28);
             this.label7.TabIndex = 31;
@@ -182,7 +184,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label6.Location = new System.Drawing.Point(39, 284);
+            this.label6.Location = new System.Drawing.Point(39, 216);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 28);
             this.label6.TabIndex = 30;
@@ -192,7 +194,7 @@
             // 
             this.AgeTb.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AgeTb.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.AgeTb.Location = new System.Drawing.Point(44, 315);
+            this.AgeTb.Location = new System.Drawing.Point(44, 247);
             this.AgeTb.Name = "AgeTb";
             this.AgeTb.Size = new System.Drawing.Size(184, 31);
             this.AgeTb.TabIndex = 29;
@@ -290,6 +292,7 @@
             this.MemberGridView.Name = "MemberGridView";
             this.MemberGridView.Size = new System.Drawing.Size(887, 444);
             this.MemberGridView.TabIndex = 43;
+            this.MemberGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.MemberGridView_CellContentClick);
             // 
             // UpdateDelete
             // 
