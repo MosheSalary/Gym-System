@@ -40,5 +40,15 @@ namespace Gym_Project
         {
             Application.Exit();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            NameTb.Text = "";
+            PhoneTb.Text = "";
+            AmountTb.Text = "";
+            AgeTb.Text = "";
+            GenderCb.Text = string.Empty;
+            ScheduleCb.Text = string.Empty;
+        }
     }
 }
