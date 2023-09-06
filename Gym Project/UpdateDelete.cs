@@ -60,7 +60,7 @@ namespace Gym_Project
                 if (selectedRow != null)
                 {
                     // Access cell values with null checks
-                    key = Convert.ToInt32(selectedRow.Cells["MName"].Value.ToString());
+                    key = Convert.ToInt32(selectedRow.Cells["MId"].Value.ToString());
                     NameTb.Text = selectedRow.Cells["MName"].Value.ToString();
                     PhoneTb.Text = selectedRow.Cells["MPhone"].Value.ToString();
                     GenderCb.Text = selectedRow.Cells["MGen"].Value.ToString();
