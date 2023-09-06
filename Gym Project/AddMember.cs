@@ -45,6 +45,12 @@ namespace Gym_Project
 
                     sqlCommand.ExecuteNonQuery();
                     MessageBox.Show("Member Successfully Added :)");
+                    NameTb.Text = "";
+                    PhoneTb.Text = "";
+                    AmountTb.Text = "";
+                    AgeTb.Text = "";
+                    GenderCb.Text = string.Empty;
+                    ScheduleCb.Text = string.Empty;
                 }
                 catch (Exception ex)
                 {
@@ -55,6 +61,28 @@ namespace Gym_Project
                     conn.Close();
                 }
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            NameTb.Text = "";
+            PhoneTb.Text = "";
+            AmountTb.Text = "";
+            AgeTb.Text = "";
+            GenderCb.Text = string.Empty;
+            ScheduleCb.Text = string.Empty;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
         }
     }
 }

@@ -16,5 +16,12 @@ namespace Gym_Project
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddMember addMember = new AddMember();
+            addMember.Show();
+            this.Hide();
+        }
     }
 }

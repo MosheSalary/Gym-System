@@ -47,9 +47,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label10 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.MemberGridView = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.MemberGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // button4
@@ -246,6 +246,7 @@
             this.label3.Size = new System.Drawing.Size(33, 33);
             this.label3.TabIndex = 24;
             this.label3.Text = "X";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -269,15 +270,6 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Pro Gym";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(327, 119);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(868, 499);
-            this.dataGridView1.TabIndex = 41;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -289,13 +281,22 @@
             this.label10.TabIndex = 42;
             this.label10.Text = "Click On The Member To Be Deleted";
             // 
+            // MemberGridView
+            // 
+            this.MemberGridView.BackgroundColor = System.Drawing.Color.White;
+            this.MemberGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.MemberGridView.Location = new System.Drawing.Point(315, 139);
+            this.MemberGridView.Name = "MemberGridView";
+            this.MemberGridView.Size = new System.Drawing.Size(887, 444);
+            this.MemberGridView.TabIndex = 43;
+            // 
             // UpdateDelete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1229, 654);
+            this.Controls.Add(this.MemberGridView);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -319,7 +320,8 @@
             this.Name = "UpdateDelete";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UpdateDelete";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.UpdateDelete_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.MemberGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -346,7 +348,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.DataGridView MemberGridView;
     }
 }

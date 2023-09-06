@@ -16,7 +16,7 @@ namespace Gym_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AddMember());
+            Application.Run(new UpdateDelete());
         }
     }
 }
