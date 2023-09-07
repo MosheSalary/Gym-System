@@ -22,3 +22,4 @@ Gym Project is a Windows Forms application developed in C# for managing gym memb
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
+
