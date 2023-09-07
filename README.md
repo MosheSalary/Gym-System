@@ -20,26 +20,5 @@ Gym Project is a Windows Forms application developed in C# for managing gym memb
 
 - **SQL Server**: Data is stored in a local SQL Server database (GymDb.mdf).
 
-## Getting Started
-
-1. Clone the repository to your local machine.
-
-
-  ``bash
-  git clone https://github.com/YourUsername/Gym-Project.git
-
-Open the project in Visual Studio or your preferred C# IDE.
-
-Build and run the project to start the application.
-
-Usage
-Add Member: Click the "Add Member" button to open the Add Member form. Fill in the required information and click "Add Member" to add a new gym member.
-
-Update and Delete Member: Select a member from the list and click the "Update" or "Delete" button to edit or remove member details.
-
-View Members: Click the "View Members" button to browse the list of gym members. Use the search feature to filter members by name.
-
-Payment Management: Click the "Payment" button to manage member payments. You can record and view payments made by members.
-
-License
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
