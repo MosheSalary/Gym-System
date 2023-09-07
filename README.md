@@ -24,8 +24,9 @@ Gym Project is a Windows Forms application developed in C# for managing gym memb
 
 1. Clone the repository to your local machine.
 
-```bash
-git clone https://github.com/YourUsername/Gym-Project.git
+
+  ``bash
+  git clone https://github.com/YourUsername/Gym-Project.git
 
 Open the project in Visual Studio or your preferred C# IDE.
 
