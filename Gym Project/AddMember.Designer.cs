@@ -45,7 +45,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -108,7 +107,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label5.Location = new System.Drawing.Point(471, 109);
+            this.label5.Location = new System.Drawing.Point(484, 109);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(184, 28);
             this.label5.TabIndex = 9;
@@ -118,7 +117,7 @@
             // 
             this.PhoneTb.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PhoneTb.ForeColor = System.Drawing.Color.SkyBlue;
-            this.PhoneTb.Location = new System.Drawing.Point(476, 140);
+            this.PhoneTb.Location = new System.Drawing.Point(489, 140);
             this.PhoneTb.Name = "PhoneTb";
             this.PhoneTb.Size = new System.Drawing.Size(184, 31);
             this.PhoneTb.TabIndex = 8;
@@ -128,7 +127,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label6.Location = new System.Drawing.Point(813, 109);
+            this.label6.Location = new System.Drawing.Point(1016, 109);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 28);
             this.label6.TabIndex = 11;
@@ -138,7 +137,7 @@
             // 
             this.AgeTb.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AgeTb.ForeColor = System.Drawing.Color.SkyBlue;
-            this.AgeTb.Location = new System.Drawing.Point(818, 140);
+            this.AgeTb.Location = new System.Drawing.Point(1021, 140);
             this.AgeTb.Name = "AgeTb";
             this.AgeTb.Size = new System.Drawing.Size(184, 31);
             this.AgeTb.TabIndex = 10;
@@ -171,7 +170,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label8.Location = new System.Drawing.Point(471, 264);
+            this.label8.Location = new System.Drawing.Point(484, 264);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(202, 28);
             this.label8.TabIndex = 15;
@@ -181,7 +180,7 @@
             // 
             this.AmountTb.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AmountTb.ForeColor = System.Drawing.Color.SkyBlue;
-            this.AmountTb.Location = new System.Drawing.Point(476, 295);
+            this.AmountTb.Location = new System.Drawing.Point(489, 295);
             this.AmountTb.Name = "AmountTb";
             this.AmountTb.Size = new System.Drawing.Size(184, 31);
             this.AmountTb.TabIndex = 14;
@@ -195,7 +194,7 @@
             "8AM-10AM",
             "6PM-8PM",
             "8PM-10PM"});
-            this.ScheduleCb.Location = new System.Drawing.Point(818, 295);
+            this.ScheduleCb.Location = new System.Drawing.Point(1021, 295);
             this.ScheduleCb.Name = "ScheduleCb";
             this.ScheduleCb.Size = new System.Drawing.Size(184, 30);
             this.ScheduleCb.TabIndex = 17;
@@ -205,7 +204,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label9.Location = new System.Drawing.Point(813, 263);
+            this.label9.Location = new System.Drawing.Point(1016, 263);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(119, 28);
             this.label9.TabIndex = 16;
@@ -218,9 +217,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(246, 453);
+            this.button1.Location = new System.Drawing.Point(283, 453);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 52);
+            this.button1.Size = new System.Drawing.Size(195, 52);
             this.button1.TabIndex = 18;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = false;
@@ -233,27 +232,13 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(513, 453);
+            this.button2.Location = new System.Drawing.Point(679, 453);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(137, 52);
+            this.button2.Size = new System.Drawing.Size(195, 52);
             this.button2.TabIndex = 19;
             this.button2.Text = "Reset";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.DodgerBlue;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(758, 453);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(137, 52);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "Back";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -262,7 +247,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(476, 557);
+            this.button4.Location = new System.Drawing.Point(476, 544);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(197, 52);
             this.button4.TabIndex = 21;
@@ -277,7 +262,6 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1217, 648);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ScheduleCb);
@@ -324,7 +308,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
     }
 }

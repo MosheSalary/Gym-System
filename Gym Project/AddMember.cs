@@ -80,8 +80,8 @@ namespace Gym_Project
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            MainForm mainform = new MainForm();
+            mainform.Show();
             this.Hide();
         }
     }

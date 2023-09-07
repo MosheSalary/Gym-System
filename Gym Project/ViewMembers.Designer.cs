@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.MemberGridView = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.SearchMember = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -82,14 +82,14 @@
             this.MemberGridView.Size = new System.Drawing.Size(887, 444);
             this.MemberGridView.TabIndex = 42;
             // 
-            // textBox1
+            // SearchMember
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.textBox1.Location = new System.Drawing.Point(433, 91);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 31);
-            this.textBox1.TabIndex = 43;
+            this.SearchMember.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchMember.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.SearchMember.Location = new System.Drawing.Point(433, 91);
+            this.SearchMember.Name = "SearchMember";
+            this.SearchMember.Size = new System.Drawing.Size(184, 31);
+            this.SearchMember.TabIndex = 43;
             // 
             // button2
             // 
@@ -104,6 +104,7 @@
             this.button2.TabIndex = 44;
             this.button2.Text = "Search";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -118,6 +119,7 @@
             this.button1.TabIndex = 45;
             this.button1.Text = "Refresh";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button4
             // 
@@ -142,7 +144,7 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.SearchMember);
             this.Controls.Add(this.MemberGridView);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -164,7 +166,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView MemberGridView;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox SearchMember;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button4;

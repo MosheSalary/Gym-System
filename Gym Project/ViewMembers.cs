@@ -24,6 +24,18 @@ namespace Gym_Project
         }
 
         SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Salary\Documents\GymDb.mdf;Integrated Security=True;Connect Timeout=30");
+
+        private void filterByName()
+        {
+            conn.Open();
+            string query = "select * from MemberTbl where MName='" + SearchMember.Text + "'";
+            SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+            SqlCommandBuilder builder = new SqlCommandBuilder();
+            var ds = new DataSet();
+            sda.Fill(ds);
+            MemberGridView.DataSource = ds.Tables[0];
+            conn.Close();
+        }
         private void populate()
         {
             conn.Open();
@@ -42,9 +54,19 @@ namespace Gym_Project
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            login.Show();
+            MainForm mainForm = new MainForm();
+            mainForm.Show();
             this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            filterByName();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            populate();
         }
     }
 }

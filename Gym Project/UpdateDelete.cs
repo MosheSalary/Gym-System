@@ -77,14 +77,14 @@ namespace Gym_Project
 
         private void button4_Click(object sender, EventArgs e)
         {
-            AddMember addMember = new AddMember();
-            addMember.Show();
+            MainForm mainform = new MainForm();
+            mainform.Show();
             this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if(key == 0)
+            if (key == 0)
             {
                 MessageBox.Show("Select The Member To Be Deleted");
             }
@@ -99,7 +99,32 @@ namespace Gym_Project
                     MessageBox.Show("Member Deleted Successfully");
                     conn.Close();
                     populate();
-                }catch (Exception ex)
+                } catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (key == 0 || NameTb.Text == "" || PhoneTb.Text == "" || AmountTb.Text == "" || AgeTb.Text == "" || GenderCb.Text == "" || ScheduleCb.Text== "")
+            {
+                MessageBox.Show("Missing Some Information");
+            }
+            else
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "update MemberTbl set Mname='" + NameTb.Text + "', MPhone='" + PhoneTb.Text + "', MGen='" + GenderCb.Text + "', MAge=" + AgeTb.Text + ", MAmount=" + AmountTb.Text + ", MSchedule='" + ScheduleCb.Text + "' where MId=" + key + ";";
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Member Updated Successfully");
+                    conn.Close();
+                    populate();
+                }
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
