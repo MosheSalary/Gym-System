@@ -1,6 +1,7 @@
 # Gym Project
 
-Gym Project is a Windows Forms application developed in C# for managing gym memberships and payments. This application allows gym administrators to add members, update member information, view member details, and record payments.
+Gym Project is a Windows Forms application developed in C# for managing gym memberships and payments.
+This application allows gym administrators to add members, update member information, view member details, and record payments.
 
 ## Features
 
@@ -19,7 +20,4 @@ Gym Project is a Windows Forms application developed in C# for managing gym memb
 - **Windows Forms**: The graphical user interface is built using Windows Forms.
 
 - **SQL Server**: Data is stored in a local SQL Server database (GymDb.mdf).
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
